@@ -1,0 +1,11 @@
+title: Drawing
+-
+date: ???
+-
+content: 
+sometimes I pretend I’m an artist
+-
+keywords: Drawing is more fun than most things
+-
+gif: @paththumb.jpg
+-

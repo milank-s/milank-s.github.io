@@ -1,0 +1,23 @@
+foreach $root do
+  if $children do
+    <p class="category col two">
+        <em>@title</em>
+    </p>
+    <ul class="project-list col ten">
+    foreach $children do
+    	<li>
+    		<div class="thumbnail col three">
+    			<img src="@thumb" alt="">
+    		</div>
+    		<div class="summary col two">
+            
+                <h2><a href="@url">@title </a></h2>
+    			<em>@date</em>
+    			<em class="background">@blurb</em>
+    		</div>
+            
+    	</li>
+    endforeach
+    </ul>
+  endif
+endforeach

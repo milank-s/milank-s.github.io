@@ -1,0 +1,11 @@
+title: Five Phrases
+-
+date: 2015, May
+-
+content: 
+A few short poems
+-
+keywords: Several short poems
+-
+gif: @paththumb.gif
+-

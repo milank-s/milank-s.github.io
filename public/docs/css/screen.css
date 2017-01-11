@@ -1,0 +1,126 @@
+/* Colours */
+
+Body, p{color:#111;}
+em{color:#999;}
+a{color:inherit; text-decoration: none;}
+
+/* Typography */
+
+body, input {line-height: 1.4; }
+ul li, p, a, em, h1, h2{font-family: "Roboto Mono"; font-weight:100;}
+p{font-family: "PT Serif"; font-size:9pt; line-height: 1.4;}
+a{font-weight: 400;}
+a:hover{border-width: 2px;}
+em{font-size:10pt;}
+h1 {font-size: 24px;margin: 0px 0px 5px 0px; color:salmon; }
+h2 { font-size: 20px; margin: 0px 0px 5px 0px; display: table-cell; vertical-align: top;}
+
+/* Layout */
+
+body { padding: 0px; margin:0px; background: url('../../../content/concrete.png');}
+
+#container{ 
+    margin: 0px auto;
+    margin-left:14vw;
+    min-height: 90vh;
+}
+
+#navbar{
+    position:fixed; 
+    padding-top:30px;
+    min-width: 960px;
+}
+
+#navbar .col{
+    border-bottom:solid 1px black;
+}
+
+div#content {
+    margin:0 auto; 
+    float:left; 
+    padding-top: 54px;
+    min-width: 960px;
+}
+
+.col {
+    margin: 0px 20px 0px 0px; 
+    padding: 0px; 
+    min-height:10px;
+    float: left;
+}
+
+.col .col { margin: 0px; }
+
+.placard{  position:absolute;margin-left:-150px; padding-top:20px; text-align: right}
+
+.one { width: 60px; }
+.two { width: 140px;}
+.three { width: 200px; }
+.four { width: 250px; }
+.five { width: 380px; }
+.six { width: 460px; }
+.seven { width: 540px; }
+.eight { width: 650px; }
+.nine { width: 700px; }
+.ten { width: 780px; }
+.eleven { width: 860px; }
+.twelve { width: 1000px; }
+
+h1, em, h2{ display: block;}
+
+a img { border: 0px;}
+.col hr { margin: 0px 0px 15px; }
+
+input#filter { display: inline; width: auto; padding: 1px 0px; border: 0px; background: #000; font-size: inherit; color: inherit; }
+    
+.project-list em, .project-list h2{
+    color:white; 
+    margin:10px 20px 10px 20px;
+}
+
+.project-list .content-block { 
+    margin-right:10px;
+    overflow: hidden;
+    margin:0px 10px 10px 0px;
+} 
+
+.content-block .thumbnail{
+    width:auto;
+    height:200px;
+}
+
+.content-block .summary {
+    position:absolute;
+    margin: 20px 0px 0px 20px;
+    pointer-events: none;
+    display: none;
+}
+
+.project-list .content-block:hover .summary{
+    background:black;
+    display:block
+}
+
+.category, div.para, div#images, .project-list{border-top: 0px solid #000; padding: 20px 0px 0px 0px;}
+
+div.description p, div.description em, .para p, .category p{padding-right: 15px;}
+
+div#media{white-space: nowrap; margin-top:20px;}
+
+.image img{
+    display:block; 
+    width:100%; 
+    height:auto; 
+    margin-bottom: 10px;
+}
+
+div#media .image{display:inline-block; margin-right:75px; vertical-align: top;}
+
+div#media img{height:75vh; width:auto; vertical-align: top;}
+
+div.media { margin: 0px 0px 0px;}
+
+p#footer { margin: 0px 0px 0px 340px; display: inline; line-height: 1.4; }
+p#footer em { display: block; }
+
+a.atom-rss { margin: 0px 0px 0px 6px; padding: 2px 3px 0px; font-size: 0.93em; letter-spacing: 0.08em; background: #ddd; }

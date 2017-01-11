@@ -1,0 +1,11 @@
+title: 3D Animation
+-
+date: 2013
+-
+content: 
+hHahahaha
+-
+keywords: Maya lol
+-
+gif: @paththumb.gif
+-
