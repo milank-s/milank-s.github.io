@@ -1,7 +1,6 @@
 title: ?
 -
 content:
-
-<em> n.b.</em> —structure game more like cow diagram—
+—structure game more like cow diagram—
 better metaphor than you have right now
 -

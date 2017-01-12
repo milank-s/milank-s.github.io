@@ -1,23 +1,24 @@
 /* Colours */
 
 Body, p{color:#111;}
-em{color:#999;}
-a{color:inherit; text-decoration: none;}
+em{color:white;}
+a{text-decoration: none; color:inherit;}
 
 /* Typography */
 
 body, input {line-height: 1.4; }
 ul li, p, a, em, h1, h2{font-family: "Roboto Mono"; font-weight:100;}
-p{font-family: "PT Serif"; font-size:9pt; line-height: 1.4;}
+p{font-family: "Roboto"; font-size:9pt; line-height: 1.4;}
 a{font-weight: 400;}
-a:hover{border-width: 2px;}
 em{font-size:10pt;}
 h1 {font-size: 24px;margin: 0px 0px 5px 0px; color:salmon; }
-h2 { font-size: 20px; margin: 0px 0px 5px 0px; display: table-cell; vertical-align: top;}
+h2 { font-size: 20px; margin: 0px 0px 5px 0px; display: table-cell; vertical-align: top; color:pink}
 
 /* Layout */
 
-body { padding: 0px; margin:0px; background: url('../../../content/concrete.png');}
+body { padding: 0px; margin:0px; 
+    background:#e3e3e3; 
+    background-repeat: no-repeat;}
 
 #container{ 
     margin: 0px auto;
@@ -38,20 +39,18 @@ body { padding: 0px; margin:0px; background: url('../../../content/concrete.png'
 div#content {
     margin:0 auto; 
     float:left; 
-    padding-top: 54px;
-    min-width: 960px;
+    padding-top: 75px;
+    max-width: 1200px;
 }
 
 .col {
-    margin: 0px 20px 0px 0px; 
+    margin: 0px 10px 0px 0px; 
     padding: 0px; 
     min-height:10px;
     float: left;
 }
 
 .col .col { margin: 0px; }
-
-.placard{  position:absolute;margin-left:-150px; padding-top:20px; text-align: right}
 
 .one { width: 60px; }
 .two { width: 140px;}
@@ -74,7 +73,6 @@ a img { border: 0px;}
 input#filter { display: inline; width: auto; padding: 1px 0px; border: 0px; background: #000; font-size: inherit; color: inherit; }
     
 .project-list em, .project-list h2{
-    color:white; 
     margin:10px 20px 10px 20px;
 }
 
@@ -101,11 +99,15 @@ input#filter { display: inline; width: auto; padding: 1px 0px; border: 0px; back
     display:block
 }
 
-.category, div.para, div#images, .project-list{border-top: 0px solid #000; padding: 20px 0px 0px 0px;}
+.category, div.para{ box-sizing: border-box; background:pink; padding:20px 0px 10px 20px; margin:0px 10px 0px 0px;}
 
-div.description p, div.description em, .para p, .category p{padding-right: 15px;}
+.category{height:200px;}
 
-div#media{white-space: nowrap; margin-top:20px;}
+div.para{position:fixed;}
+
+div.description p, div.description em, .para p, .category p{margin:10px 20px 10px 0px;}
+
+div#media{white-space: nowrap; margin-left:-8vw;}
 
 .image img{
     display:block; 

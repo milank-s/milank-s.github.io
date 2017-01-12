@@ -1,4 +1,7 @@
 title: Games
 -
 content: 
+Along with my <a href = "http://neilsonks.com">twin</a> I'm drawn to the virtual worlds, their neuroses, and their manias.
+-
+link: itch.io
 -
