@@ -1,46 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i);
 /* Colours */
 
-Body, p{color:#111;}
+Body, p{color:#333;}
 em{color:white;}
-a{text-decoration: none; color:inherit;}
+a{color:inherit; border-bottom:solid 1px black; text-decoration:none; border-color: inherit;}
 
 /* Typography */
 
 body, input {line-height: 1.4; }
-ul li, p, a, em, h1, h2{font-family: "Roboto Mono"; font-weight:100;}
-p{font-family: "Roboto"; font-size:9pt; line-height: 1.4;}
-a{font-weight: 400;}
+ul li, p, a, em, h1, h2{font-family: "Roboto Mono"; font-weight: 300;}
+p{line-height: 1.4; font-size:10pt;}
+a{}
 em{font-size:10pt;}
-h1 {font-size: 24px;margin: 0px 0px 5px 0px; color:salmon; }
-h2 { font-size: 20px; margin: 0px 0px 5px 0px; display: table-cell; vertical-align: top; color:pink}
+h1 {font-size: 50px;margin: 0px 0px 5px 0px; font-style:italic; font-weight:700;color:#333; text-decoration:underline; color:pink;}
+h2 { font-size: 20px; margin: 0px 0px 5px 0px; display: table-cell; vertical-align: top; color:pink;}
 
 /* Layout */
 
-body { padding: 0px; margin:0px; 
-    background:#e3e3e3; 
-    background-repeat: no-repeat;}
+body { padding: 0px; margin:0px; height: 100vh;
+    background:#e3e3e3;
+}
 
 #container{ 
     margin: 0px auto;
-    margin-left:14vw;
+    margin-left:75px;
     min-height: 90vh;
 }
 
 #navbar{
+    background: #e3e3e3;
     position:fixed; 
-    padding-top:30px;
+    padding-top:25px;
     min-width: 960px;
-}
-
-#navbar .col{
-    border-bottom:solid 1px black;
+    border-bottom:-1px;
+    z-index: 10;
 }
 
 div#content {
-    margin:0 auto; 
-    float:left; 
     padding-top: 75px;
-    max-width: 1200px;
 }
 
 .col {
@@ -50,14 +47,14 @@ div#content {
     float: left;
 }
 
-.col .col { margin: 0px; }
+/*.col .col { margin: 0px; }*/
 
 .one { width: 60px; }
-.two { width: 140px;}
+.two { width: 160px;}
 .three { width: 200px; }
 .four { width: 250px; }
 .five { width: 380px; }
-.six { width: 460px; }
+.six { width: 420px; }
 .seven { width: 540px; }
 .eight { width: 650px; }
 .nine { width: 700px; }
@@ -72,42 +69,58 @@ a img { border: 0px;}
 
 input#filter { display: inline; width: auto; padding: 1px 0px; border: 0px; background: #000; font-size: inherit; color: inherit; }
     
-.project-list em, .project-list h2{
-    margin:10px 20px 10px 20px;
+em, h2{
+    margin:10px 20px 10px 0px;
 }
 
 .project-list .content-block { 
-    margin-right:10px;
     overflow: hidden;
     margin:0px 10px 10px 0px;
+    background:pink;
+    width:200px;
 } 
 
 .content-block .thumbnail{
-    width:auto;
     height:200px;
+    margin:0px;
+    width:auto;
 }
 
 .content-block .summary {
     position:absolute;
-    margin: 20px 0px 0px 20px;
+    margin:20px 0px 0px 20px;
+    padding:0px 0px 10px 20px;
     pointer-events: none;
-    display: none;
+    border: solid 0px pink;
+    box-sizing: border-box;
+    height:160px;
+    display:none;
+    background:rgba(0,0,0,0);
 }
 
 .project-list .content-block:hover .summary{
-    background:black;
-    display:block
+    display:block;
 }
 
-.category, div.para{ box-sizing: border-box; background:pink; padding:20px 0px 10px 20px; margin:0px 10px 0px 0px;}
+.project-list .content-block:hover .thumbnail{
+    display:block;
+}
 
-.category{height:200px;}
+.description p{font-size:11pt;}
 
-div.para{position:fixed;}
+.category, div.para, .description{ box-sizing:border-box; padding:20px 0px 10px 25px; margin:0px 10px 10px 0px; }
 
-div.description p, div.description em, .para p, .category p{margin:10px 20px 10px 0px;}
+.category{ border:solid 0px #222; height:200px; z-index: -1; background:pink;}
 
-div#media{white-space: nowrap; margin-left:-8vw;}
+.description{ height:200px;}
+.project-list .description:hover {background:none;}
+.project-list .description:hover h1{color:rgba(0,0,0,0);}
+
+div.para{position:fixed; font-size:10pt; background:pink;}
+
+div.description p, div.description em, .para p, .category p{margin:10px 25px 10px 0px;}
+
+div#media{white-space: nowrap; margin-left:-25px;}
 
 .image img{
     display:block; 

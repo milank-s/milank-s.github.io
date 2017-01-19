@@ -1,18 +1,5 @@
 foreach $root do
   if $children do
-    <div class="project-list">
-    foreach $children do
-        <div class = "content-block col three">
-            <a href="@url">
-            <img class="thumbnail col" src="@thumb" alt="" onmouseover="this.src='@gif';" onmouseout="this.src='@thumb';">
-            </a>
-            <div class="summary col two">
-                <h2><a href="@url">@title</a></h2>
-    			<em>@date</em>
-    			<em class="background">@blurb</em>
-    		</div>
-    	</div>
-    endforeach
-</div>
+    :category_list
   endif
 endforeach

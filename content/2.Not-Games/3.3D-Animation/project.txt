@@ -3,9 +3,11 @@ title: 3D Animation
 date: 2013
 -
 content: 
-hHahahaha
+It hurts, but Samuel Boucher makes me want to hone modelling and rigging skills
 -
-keywords: Maya lol
+blurb: Veil of Maya
 -
 gif: @paththumb.gif
+-
+keywords: 2 Semesters of Maya
 -

@@ -1,11 +1,13 @@
 title: Drawing
 -
-date: ???
+date:
 -
 content: 
-sometimes I pretend I’m an artist
+Doodles, diagrams, constellations.
 -
-keywords: Drawing is more fun than most things
+keywords: Ink, ink, ink, charcoal
+-
+blurb: Immediacy the screen won’t give
 -
 gif: @paththumb.gif
 -

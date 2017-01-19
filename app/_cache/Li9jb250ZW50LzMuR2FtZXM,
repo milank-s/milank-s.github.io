@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Milan Koerner-Safrata</title>
+		<link rel="alternate" type="application/atom+xml" href="./?/feed/">
+		<link rel="stylesheet" href="/public/docs/css/screen.css" type="text/css" media="screen"> 
+        
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90394801-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</head>
+	<body>
+        <div id="container">
+            <div id = "navbar">
+    <div class=" col three">
+        <a href ="/">M. Koerner-Safrata</a>
+    </div>
+    <div class="col">
+            <a href="./?/Games/" style = "margin-right:20px;">Video Games</a>
+    <a href="./?/Not-Games/" style = "margin-right:20px;">Not Games</a>
+    <a href="./?/CV/" style = "margin-right:20px;">?</a>
+
+    </div>
+</div>
+            <div id = "content"> 
+            <div class="project-list col">  
+    <div class="category col three">
+            <em><a href = https://milanimal.itch.io/>itch.io</a></em>
+            <p>@NYU Game Centre sorting out virtual worlds, their hopes, and neuroses.</p>
+
+    </div>
+            <div class = "content-block col">
+            <a href="./?/Games/Maps/">
+                        <img class="thumbnail col" src="./content/3.Games/16.Maps/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/16.Maps/thumb.gif';" onmouseout="this.src='./content/3.Games/16.Maps/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Maps/">Maps</a></h2>
+    			<em>2016, Ongoing</em>
+    			<em class="background">Skate on a kinaesthetic mental model</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Koi/">
+                        <img class="thumbnail col" src="./content/3.Games/15.Koi/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/15.Koi/thumb.gif';" onmouseout="this.src='./content/3.Games/15.Koi/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Koi/">Koi</a></h2>
+    			<em>2016, Dec</em>
+    			<em class="background">A tribute to Nitobe</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Notes/">
+                        <img class="thumbnail col" src="./content/3.Games/14.Notes/thumb.jpg" alt="" onmouseover="this.src='./content/3.Games/14.Notes/thumb.gif';" onmouseout="this.src='./content/3.Games/14.Notes/thumb.jpg';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Notes/">Notes</a></h2>
+    			<em>2016, Dec</em>
+    			<em class="background">A mausoleum escape game</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Dead-Friends/">
+                        <img class="thumbnail col" src="./content/3.Games/13.Dead-Friends/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/13.Dead-Friends/thumb.gif';" onmouseout="this.src='./content/3.Games/13.Dead-Friends/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Dead-Friends/">Dead Friends</a></h2>
+    			<em>2016, May</em>
+    			<em class="background">An echo chamber</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Five-Phrases/">
+                        <img class="thumbnail col" src="./content/3.Games/12.Five-Phrases/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/12.Five-Phrases/thumb.gif';" onmouseout="this.src='./content/3.Games/12.Five-Phrases/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Five-Phrases/">Five Phrases</a></h2>
+    			<em>2015, May</em>
+    			<em class="background">@blurb</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Eternal-Smile/">
+                        <img class="thumbnail col" src="./content/3.Games/11.Eternal-Smile/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/11.Eternal-Smile/thumb.gif';" onmouseout="this.src='./content/3.Games/11.Eternal-Smile/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Eternal-Smile/">Eternal Smile</a></h2>
+    			<em>2015, Nov</em>
+    			<em class="background">A narrative jaunt through the underworld</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Cave/">
+                        <img class="thumbnail col" src="./content/3.Games/10.Cave/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/10.Cave/thumb.gif';" onmouseout="this.src='./content/3.Games/10.Cave/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Cave/">Cave</a></h2>
+    			<em>2014, May</em>
+    			<em class="background">@blurb</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Monochrome/">
+                        <img class="thumbnail col" src="./content/3.Games/5.Monochrome/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/5.Monochrome/thumb.gif';" onmouseout="this.src='./content/3.Games/5.Monochrome/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Monochrome/">Monochrome</a></h2>
+    			<em>2013, May</em>
+    			<em class="background">@blurb</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Innawoods/">
+                        <img class="thumbnail col" src="./content/3.Games/4.Innawoods/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/4.Innawoods/thumb.gif';" onmouseout="this.src='./content/3.Games/4.Innawoods/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Innawoods/">Innawoods</a></h2>
+    			<em>2013, Sept</em>
+    			<em class="background">@blurb</em>
+    		</div>
+    	</div>
+            <div class = "content-block col">
+            <a href="./?/Games/Spaace/">
+                        <img class="thumbnail col" src="./content/3.Games/3.Spaace/thumb.gif" alt="" onmouseover="this.src='./content/3.Games/3.Spaace/thumb.gif';" onmouseout="this.src='./content/3.Games/3.Spaace/thumb.gif';">
+            
+            </a>
+            <div class="summary col two">
+                <h2><a href="./?/Games/Spaace/">Space</a></h2>
+    			<em>2013, Aug–</em>
+    			<em class="background">@blurb</em>
+    		</div>
+    	</div>
+    
+</div>
+            </div>
+		</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): f748b4693bb0650919277d7190faa107 -->

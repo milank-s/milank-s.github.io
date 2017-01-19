@@ -1,7 +1,7 @@
-title: Games
+title: Video Games
 -
 content: 
-Along with my <a href = "http://neilsonks.com">twin</a> I'm drawn to the virtual worlds, their neuroses, and their manias.
+@NYU Game Centre sorting out virtual worlds, their hopes, and neuroses.
 -
-link: itch.io
+link: <em><a href = https://milanimal.itch.io/>itch.io</a></em>
 -

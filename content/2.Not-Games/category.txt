@@ -1,4 +1,7 @@
 title: Not Games
 -
-content: 
+content: I dislike screens. <br>
+
+A bucket of gesso patiently waits to cover my laptop
 -
+link:

@@ -3,9 +3,11 @@ title: Eternal Smile
 date: 2015, Nov 
 -
 content: 
-A short narrative jaunt through the underworld. Based on Pär Laverkvist’s “Eternal Smile”.
+Short spatial interpretation of Pär Laverkvist’s “Eternal Smile”.
 -
-keywords: A narrative jaunt through the underworld
+blurb: A narrative jaunt through the underworld
+-
+keywords: 
 -
 gif: @paththumb.gif
 -

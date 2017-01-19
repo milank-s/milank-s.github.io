@@ -1,11 +1,13 @@
-title: Milan’s Webzone
+title: Milan
+Koerner-Safrata
 -
 content: 
-Hi. I’m making and thinking about games. I studied Literary Arts at Brown University and Painting at RISD. I spent a year at home considering suicide before starting an MFA in game design at NYU<br>
+Working with interactive media at NYU
+
+Not unlike my <a href = "http://neilsonks.com">twin</a>
 -
 email: milanks@nyu.edu
 -
-twitter: @milanimalism
--
-blog: my twin
+previously: 
+Bici Forbes – Become invisible (1966) a. by hiding; b. by divesting yourself of all distinguishing marks; c. by going away; d. by concentrating so hard on some object or idea that you cease to be aware of your physical presence;
 -

@@ -1,8 +1,6 @@
-<div class="project-list col">  
-    <div class="category col three">
-            @link
-            @content
-    </div>
+<div class = "project-list">
+foreach $root do
+  if $children do
     foreach $children do
         <div class = "content-block col">
             <a href="@url">
@@ -17,4 +15,6 @@
     		</div>
     	</div>
     endforeach
+  endif
+endforeach
 </div>
