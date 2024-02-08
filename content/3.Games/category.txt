@@ -1,7 +1,0 @@
-title: Video Games
--
-content: 
-@NYU Game Centre sorting out virtual worlds, their hopes, and neuroses.
--
-link: <em><a href = https://milanimal.itch.io/>itch.io</a></em>
--

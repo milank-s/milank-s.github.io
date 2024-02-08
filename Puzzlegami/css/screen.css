@@ -1,0 +1,337 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i);
+/* Colours */
+
+Body, p{color:#333;}
+
+Body{
+    width:800px;
+    height:100vh;
+    margin: 0 auto;
+    background:yellow;
+}
+
+
+/* Typography */
+
+video{
+    min-width: 100vw;
+    overflow:hidden;
+   
+}
+
+#hideoverflow{
+    max-width:100vw;
+    max-height:75vh;
+    overflow: hidden;
+    margin:0 auto;    
+}
+
+.transformWrapper div{
+    position:absolute;
+    width:100%;
+    height:50%;
+}
+
+
+div#content {
+    padding-top:100px;
+    width:100vw;
+    margin:0 auto;
+}
+
+.transformWrapper{
+    position:relative;
+    width:256px;
+    height:256px;
+    min-width:256px;
+    min-height:256px;
+    margin:0 auto;
+    top:25vh;
+    
+    z-index: 0;
+   
+}
+
+#ring{
+    left:-12%;
+    top:-12%;
+    width: 125%;
+    height: 125%;
+    -webkit-animation: spin 1s linear infinite; 
+    
+}
+
+.transformWrapper img{
+    pointer-events: none;
+    position:absolute;
+    image-rendering:crisp-edges;
+    width:100%;
+    height:100%;
+    z-index: -12;
+    
+}
+
+.transformWrapper p{
+
+    width:80%;
+    margin: 0 auto;
+    padding-top:25px;
+}
+
+
+#transformWrapperLeft{
+    
+    left:-25%;
+    top:25%;
+    transform: rotateZ(90deg);
+
+}
+
+
+#transformWrapperTop{
+   left:0%;
+    transform: rotateZ(180deg);
+
+}
+#transformWrapperRight{
+    left:25%;
+    top:25%;
+    transform: rotateZ(270deg);
+
+}
+#transformWrapperBottom{
+    left:0;
+    top:50%;
+    transform: rotateZ(0deg);
+
+}
+
+.transformFlap{
+    pointer-events: none;
+    transform-origin: 50% 100%;
+    
+    -webkit-transition: 2s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 2s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 2s;
+    -o-transform-style: preserve-3d;
+
+    -ms-transition: 2s;
+    -ms-transform-style: preserve-3d;
+
+    transition: 2s;
+    transform-style: preserve-3d;
+    
+}
+
+
+@-webkit-keyframes spin {
+from {
+    
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(10deg);
+    }
+}
+
+.imageWrapper{
+    pointer-events: none;
+    z-index: 10;
+}
+
+img:nth-child(even) {
+    backface-visibility: hidden;
+}
+
+.imageWrapper:nth-child(odd) {
+    
+    backface-visibility: visible;
+    
+}
+
+
+.transformWrapper:hover > .imageWrapper >.transformFlap{
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    
+}
+
+.transformWrapper:hover > #description{
+/*   z-index:10;*/
+}
+
+.transformWrapper:hover > #transformWrapperBottom >.transformFlap{
+    transition: 1s;
+    transition-delay:0.4s
+        
+    
+}
+
+.transformWrapper:hover > #transformWrapperLeft >.transformFlap{
+/*    -webkit-animation: paused;*/
+    transition: 1s;  
+     
+}
+
+.transformWrapper:hover > #transformWrapperRight >.transformFlap{
+     transition: 1.2s;
+    transition-delay: 0.2s;
+}
+
+.transformWrapper > #transformWrapperLeft >.transformFlap{
+
+}
+.transformWrapper:hover > #transformWrapperTop >.transformFlap{
+    transition: 0.9s;
+    transition-delay: 0.1s; 
+}
+
+
+
+
+
+ul li, p, a, em, h1, h2{font-family: "PT Serif"; font-weight: 100;}
+p{line-height: 1.4; font-size:12pt; padding:0; margin:0; line-height: 1; color:grey; letter-spacing: 0.01em; text-align:center;}
+
+
+em{font-size:10pt;}
+
+#footer a{
+	color: grey;
+	text-decoration: underline;
+	font-size:12pt;
+}
+
+a{color:#00DDDD; border-color: inherit; text-decoration: none; padding:0; margin:0; text-align:center;font-size:13pt; }
+
+a:hover{text-decoration: underline; }
+
+h1 {font-size: 72px;margin: 0px 0px 5px 0px; font-weight:700; text-align: center;}
+
+h2 { font-size: 20px; margin: 0px 0px 5px 0px; display: table-cell; vertical-align: top; color:pink;}
+
+/* Layout */
+
+body { padding: 0px; margin:0px; height: 100vh; width:100vw;
+    background:white;
+}
+
+
+#container{ 
+    margin: 0px auto;
+    min-height: 90vh;
+}
+
+#navbar{
+    position:fixed; 
+    min-width: 100%;
+    z-index: 10;
+}
+
+.col {
+    margin: 0 auto; 
+    padding: 20px; 
+    min-height:10px;
+}
+
+/*.col .col { margin: 0px; }*/
+
+.one { width: 60px; }
+.two { width: 160px;}
+.three { width: 200px; }
+.four { width: 250px; }
+.five { width: 380px; }
+.six { width: 420px; }
+.seven { width: 540px; }
+.eight { width: 650px; }
+.nine { width: 700px; }
+.ten { width: 780px; }
+.eleven { width: 860px; }
+.twelve { width: 1000px; }
+
+h1, em, h2{ display: block;}
+
+h1 a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+a img { border: 0px;}
+.col hr { margin: 0px 0px 15px; }
+
+input#filter { display: inline; width: auto; padding: 1px 0px; border: 0px; background: #000; font-size: inherit; color: inherit; }
+    
+em, h2{
+    margin:10px 20px 10px 0px;
+}
+
+.project-list .content-block { 
+    overflow: hidden;
+    margin:0px 10px 10px 0px;
+    background:pink;
+    width:200px;
+} 
+
+.content-block .thumbnail{
+    height:200px;
+    margin:0px;
+    width:auto;
+}
+
+.content-block .summary {
+    position:absolute;
+    margin:20px 0px 0px 20px;
+    padding:0px 0px 10px 20px;
+    pointer-events: none;
+    border: solid 0px pink;
+    box-sizing: border-box;
+    height:160px;
+    display:none;
+    background:rgba(0,0,0,0);
+}
+
+.project-list .content-block:hover .summary{
+    display:block;
+}
+
+.project-list .content-block:hover .thumbnail{
+    display:block;
+}
+
+.description p{font-size:11pt;}
+
+.category, div.para, .description{ box-sizing:border-box; padding:20px 0px 10px 25px; margin:0px 10px 10px 0px; }
+
+.category{ border:solid 0px #222; height:200px; z-index: -1; background:pink;}
+
+.description{ height:200px;}
+.project-list .description:hover {background:none;}
+.project-list .description:hover h1{color:rgba(0,0,0,0);}
+
+div.para{position:fixed; font-size:10pt; background:pink;}
+
+div.description p, div.description em, .para p, .category p{margin:10px 25px 10px 0px;}
+
+div#media{white-space: nowrap; margin-left:-25px;}
+
+.image img{
+    display:block; 
+    width:100%; 
+    height:auto; 
+    margin-bottom: 10px;
+}
+
+div#media .image{display:inline-block; margin-right:75px; vertical-align: top;}
+
+div#media img{height:75vh; width:auto; vertical-align: top;}
+
+div.media { margin: 0px 0px 0px;}
+
+a.atom-rss { margin: 0px 0px 0px 6px; padding: 2px 3px 0px; font-size: 0.93em; letter-spacing: 0.08em; background: #ddd; }

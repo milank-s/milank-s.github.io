@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+New message from <%=@sender.first_name.capitalize%>
+</title>
+<link href="styles.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body itemscope itemtype="http://schema.org/EmailMessage">
+
+<table class="body-wrap">
+	<tr>
+		<td></td>
+		<td class="container" width="600">
+            <div class="content-block-centred">
+                <a href="http://nesterly.io"><img src="http://milanks.com/NesterlyLogo.png" style = "width:200px; margin-top:20px;"></a>
+             </div>
+			<div class="content">
+                
+				<table class="main" width="100%" cellpadding="0" cellspacing="0">
+                   
+					<tr>
+						<td class="content-wrap">
+							<table width="100%" cellpadding="0" cellspacing="0">
+                                					<tr>
+						<td class="alert alert-warning">
+                            Hello <%= @recipient.first_name.capitalize %>,
+you have a new message from <%=@sender.first_name.capitalize%>.
+						</td>
+					</tr>
+				<td class="message-wrap">
+				<table width="100%" cellpadding="0" cellspacing="0">
+				    <tr>
+									<td class="content-block">
+                                        
+                                        <img class = "image-icon" src="http://milanks.com/content/2.Work/11.Prototypes/8.gif">
+                                        <div class = "text-float-right">
+										<h4><%=@sender.first_name.capitalize%></h4>
+                                       <%=@message%>
+                                        </div>
+									</td>
+								</tr>
+                                </table>
+                        </td>
+                                
+								<tr>
+									<td class="content-block-centred">
+										<a href="https://nesterly.io" class="btn-primary">
+Respond to <%=@sender.first_name.capitalize%>
+                                        </a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<div class="footer">
+					<table width="100%">
+                             <tr>
+                                <td class="aligncenter">
+										Questions? Call us at 781-205-9607<br>
+                                     <a href="https://nesterly.activehosted.com/proc.php?nl=0&c=94&m=95&s=bad97c655476f96a390a72c05a742011&act=unsub">Unsubscribe</a>&emsp;&emsp;<a href="http://nesterly.io">View Website</a> 
+								</td>
+                            </tr>
+					</table>
+				</div></div>
+		</td>
+		<td></td>
+	</tr>
+</table>
+
+</body>
+</html>

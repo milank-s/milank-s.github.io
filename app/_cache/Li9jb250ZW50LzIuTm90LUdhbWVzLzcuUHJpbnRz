@@ -1,108 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<title>Milan Koerner-Safrata</title>
-		<link rel="alternate" type="application/atom+xml" href="./?/feed/">
-		<link rel="stylesheet" href="/public/docs/css/screen.css" type="text/css" media="screen"> 
-        
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-90394801-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-	</head>
-	<body>
-        <div id="container">
-            <div id = "navbar">
-    <div class=" col three">
-        <a href ="javascript:history.back()">Youtube Visions</a>
-    </div>
-    <div class=" col">
-            <a href="./?/Games/" style = "margin-right:20px;">Video Games</a>
-    <a href="./?/Not-Games/" style = "margin-right:20px;">Not Games</a>
-    <a href="./?/CV/" style = "margin-right:20px;">?</a>
-
-    </div>
-</div>
-        <div id = "content">
-            <div class = "para col three">
-                <em>2013, Jan—</em>
-                <em>Silkscreen, Gel Transfers</em>
-                <p>Poor registration, lossy transfers, and repetition become analogues (analog) for virtual detritus</p>
-
-            </div>
-             <div id="media">
-      	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/20.jpg" alt="Youtube Visions" width="600" height="1108">
-      <em style = "color:#111">Torsion<br>        <br>Photogravure        <br>10x20</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/19.jpg" alt="Youtube Visions" width="600" height="764">
-      <em style = "color:#111">The Archetype<br>        <br>Acetone Image Transfer        <br>20x30</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/17.jpg" alt="Youtube Visions" width="600" height="850">
-      <em style = "color:#111">Pixel Occult<br><br>Acetone Image Transfer<br>20x30</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/16.jpg" alt="Youtube Visions" width="600" height="945">
-      <em style = "color:#111">Making  a Statement to Infinity Ward<br>        <br>Acetone Transfer        <br>24x36</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/6.jpg" alt="Youtube Visions" width="600" height="435">
-      <em style = "color:#111">Making  a Statement to Infinity Ward #1<br>        <br>Gel Medium Transfer        <br>8x12</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/5.jpg" alt="Youtube Visions" width="600" height="433">
-      <em style = "color:#111">Making  a Statement to Infinity Ward #2<br><br>Gel Medium Transfer<br>8x12</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/4.jpg" alt="Youtube Visions" width="600" height="420">
-      <em style = "color:#111">Making a Statement to Infinity Ward #3<br><br>Gel Medium Transfer<br>8x12</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/3.jpg" alt="Youtube Visions" width="600" height="442">
-      <em style = "color:#111">Making  a Statement to Infinity Ward #4<br>        <br>Gel Medium Transfer        <br>8x12</em>
-    
-	</div>
-
-	<div class="image">
-		<img src="./content/2.Not-Games/7.Prints/1.jpg" alt="Youtube Visions" width="600" height="426">
-      <em style = "color:#111">Brush with Beast, Tree Falls<br><br>Silkscreen <br>5x8</em>
-    
-	</div>
-
-
-  
-  
-  
-  
-  
-  
-  
-</div>
-        </div>
-	</body>
-</html>
-<!-- Stacey(2.3.0): 3a3a8f6ea86800add1644ceee3008666 -->

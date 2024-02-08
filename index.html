@@ -1,10 +1,299 @@
 <html>
-    <body style = "margin-top:20vh; text-align:center; Font-Family: 'Roboto Mono';">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Milan Koerner-Safrata</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen"> 
+		
+    <script>function ShowAbout() {
+        var x = document.getElementById("About");
+        var y = document.getElementById("Scroll");
+        x.style.display = "inline-block";
+        y.style.display = "none";
+
+    }
+    </script>
+    
+    <script>function HideAbout() {
+        var x = document.getElementById("About");
+        var y = document.getElementById("Scroll");
+
+        x.style.display = "none";
+        y.style.display = "inline-block";
+    }    
+    </script>
+
+
+	</head>
+
+	<body>
+		<div class = "navbar">
+    
+			<!--personal links-->
+
+	    	<div class = "inlineDiv"> 
+
+                <div class = "navLinks">
+                    <a href = "#" onclick="HideAbout()">Work</a>
+
+                    <br>
+
+                    <a href = "#"  onclick="ShowAbout()">About</a>
+
+                </div>
+
+                <div id = "Links">
+                    <a href = "mailto: milan@scrnprnt.ca">
+                        ✎ milan@scrnprnt.ca
+                    </a> 
+
+                    <br>
+                    
+                    <a href = https://twitter.com/milanimalism>
+                        @ milanimalism
+                    </a>
+
+                    <br>
+
+                    <a href = "http://neilsonks.com">
+                        &#9786; my twin
+                    </a>
+                </div>
+
+	    	</div>
+
+            <div id = "About">
+
+    	    	<div class = "blurb"> 
+                    <div class = "centerParagraph"> 
+        	    		<p>I'm a game dev and artist exploring virtual worlds, their hopes, and their neuroses. At the moment I'm in Montreal, working on a release date for my game <i>Stellations</i>.
+                        </p>
+
+                        <br><br>
+
+                        <img id = "portrait" src = "Images/ADS08005.jpg">
+        	    	</div>
+                </div>
+            </div>
+
+            <!-- <div id = clearBlock></div> -->
+
+            
+
+	    	<!--project links
+
+	    	<div class="col" style = "margin-left:28px"> 
+	    		<a href = projects/prints.html>
+		        	Games
+		    	</a>
+
+		    	<br>
+
+		    	<a href = projects/prints.html>
+		        	Prints
+		    	</a>
+
+		    	<br>
+
+		    	<a href = projects/prints.html>
+		        	Drawings
+		    	</a>
+
+		    	<br>
+
+		    	<a href = projects/prints.html>
+		        	Prints
+		    	</a>
+
+		    	<br>
+
+		    	<a href = projects/prints.html>
+		        	Prints
+		    	</a>
+	    	</div>
+
+	    	-->
+
+		</div>
+
+
+ 		<!--page content-->
+
+
+
+		<div id = "Scroll">
+
+			<div class = "ProjectBlock">
+            	<img src = "Images/stellations.gif">
+
+
+                <div class = "description">
+                	<h1>Stellations</h1>
+                	<em>2020, Videogame</em>
+            	</div>
+                
+                <p> 
+                	Enter a mental map made of your muscle memory, thought loops, and vicious circles.
+                </p>
+                
+                <a href = "http://scrnprnt.ca/Stellations.html"target=”_blank”>Website</a>
+        	</div>
+
+        	<div class = "ProjectBlock">
+            	<img src = "Images/gardengif.gif">
+  
+  				<div class = "description">
+                	<h1>The Garden Of Earthly Delights</h1>
+                	<em>2020, Videogame</em>
+                </div>
+
+                <p class> 
+                	A chat room for watching the world end, in Age of Empires. <i>Featured at Now Play This</i>
+                </p>
+
+               
+                <a href = "http://scrnprnt.ca/TheGardenOfEarthlyDelights/index.html" target=”_blank”>Play</a>
+        	</div>
+
+        	<div class = "ProjectBlock">
+            	<img src = "Roofkite/fishkites.gif">
+
+  				<div class = "description">
+	                <h1>Roofkite</h1>
+	                <em>2020, Videogame</em>
+                </div>
+
+                <p> 
+                	 A friend's childhood memory. Made with <a href = "http://www.vanillaliu.com/">Vanilla Liu</a> and <a href = "https://www.8ude.com/">Corey Bertelsen</a>
+                </p>
+               
+                
+                <a href = "https://milanimal.itch.io/rook-kite" target=”_blank”>Play</a>
+        	</div>
+
         
-		<h1 style = "font-weight:800;">milanks.com</h1>
-        <h1 style = "font-weight:600;">milanks.com</h1>
-        <h1 style = "font-weight:400;">milanks.com</h1>
-        <h1 style = "font-weight:200;">milanks.com</h1>
-        <h1 style = "font-weight:100;">milanks.com</h1>
+            <div class = "ProjectBlock">
+            	<img src = "Copter/copters.gif">
+                
+
+  				<div class = "description">
+                	<h1>Maplesoft Flight Simulator</h1>
+                	<em>2019, Videogame</em>
+            	</div>
+
+                <p> 
+                	Be a freewheeling seed, for a couple seconds
+                </p>
+               
+                
+                <a href = "Copter.html" target=”_blank”>More</a>
+        	</div>
+
+            <div class = "ProjectBlock">
+                <img src = "Images/Hearth.gif">
+                
+
+                <div class = "description">
+                    <h1>Hearth</h1>
+                    <em>2018, Videogame</em>
+                </div>
+
+                <p> 
+                    A survival game where the player must feed their life-sustaining fire. Everything in the world burns.
+                </p>
+               
+                
+                <a href = "https://milanimal.itch.io/hearth" target=”_blank”>Play</a>
+            </div>
+
+            <div class = "ProjectBlock">
+                <img src = "Circle0/circle0.gif">
+                
+
+                <div class = "description">
+                    <h1>Circle0</h1>
+                    <em>2017, Videogame</em>
+                </div>
+
+                <p> 
+                    Pursue the grail through virtual flotsam and jetsam. <i>IGF Nuovo Award </i> nominee.
+
+                </p>
+               
+                
+                <a href = "Circle0.html">More</a>
+            </div>
+
+
+
+        	<div class = "ProjectBlock">
+            	<img src = "AlienGarden/alienicon.gif">
+
+
+  				<div class = "description">
+	                <h1>Alien Garden</h1>
+	                <em>2018, Videogame</em>
+	            </div>
+                
+                <p> 
+                	A remake of Bernie DeKoven & Jaren Lanier's 1982 game <i>Alien Garden</i> for Atari 8-bit consoles.
+                </p>
+               
+                <a href = "AlienGarden.html">More</a>
+                <br>
+                
+        	</div>
+
+        	<div class = "ProjectBlock">
+            	<img src = "Images/springsprong.gif">
+
+
+  				<div class = "description">
+	                <h1>Spring Sprong</h1>
+	                <em>2017, Alt Controller</em>
+	            </div>
+                
+                <p> 
+                	1D Ping Pong, made with <a href = "http://skippyskippy.com/index.html" target = "_blank">Tim Sun</a> and <a href = "https://launz.github.io/" target = "_blank">Laurenz Riklin</a>. Presented at <i>Come Out and Play</i>
+                </p>
+               
+                
+                <a href = "http://skippyskippy.com/springsprong.html"  target=”_blank”>Website</a>
+        	</div>
+
+        	<div class = "ProjectBlock">
+            	<img src = "Images/puzzlegami.png">
+
+
+  				<div class = "description">
+	                <h1>Puzzlegami</h1>
+	                <em>2017, Paper game</em>
+	            </div>
+                
+                <p> 
+                	An origami puzzle game created by Kevin Zeng, <a href = "https://launz.github.io/" target = "_blank">Laurenz Riklin</a>, and <a href = "http://www.vanillaliu.com/">Vanilla Liu</a>
+                </p>
+               
+                
+                <a href = "Puzzlegami/index.html" target=”_blank”>Website</a>
+        	</div>
+
+        	<div class = "ProjectBlock">
+            	<img src = "Images/twirling.gif">
+
+
+  				<div class = "description">
+	                <h1>Ouroboros</h1>
+	                <em>2018, Videogame</em>
+                </div>
+
+                <p> 
+                	Made in Bennett Foddy's prototype class for the prompt "Eternal/Ephemeral"
+                </p>
+               
+                
+                <a href = "https://milanimal.itch.io/prototype-9" target=”_blank”>Play</a>
+        	</div>
+
+		</div>
 	</body>
 </html>
